@@ -4,35 +4,37 @@ import { RFPercentage } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1, // container ocupa 100% da tela
-        backgroundColor: '#fafafa', // cor do container
-        borderRadius: 10, // borda curvada
-        padding: 8, 
-        alignItems: 'center', // alinhamento horizontal - flexDirection collumn
+        backgroundColor: '#fff',
+        padding: 8,
+        Flex: 1,
+        alignItems: 'center',
+        borderRadius: 20,
     }, 
     titulo: {
-        fontSize: RFPercentage(4), // tamanho da fonte
-        fontWeight: 'bold', 
-        borderWidth: 3, // expessura da borda
-        marginTop: 20, // margem acima do elemento
-        marginBottom: 20, // margem abaixo do elemento
-        paddingVertical: 10, // espaço interno
-        width: '100%', // largura do objeto
-        textAlign: 'center', // alinhamento horizontal do texto no container
-        textAlignVertical: 'center', // alinhamento vertical do texto no container
-        color: 'darkslategrey', // cor do texto 
-        borderColor: 'darkslategrey', // cor da borda 
-        borderRadius: 20, // arrendondar borda
+        fontSize: RFPercentage(3), // tamanho da fonte
+        color: 'deepskyblue',
+        fontWeight: 'bold',
+        dorderWiddth: 2,
+        dorderColor: 'deepskypblue',
+        marginTop: 10,
+        marginBottom: 10,
+        padding: 8,
+        widght: '100%',
+        height: 80,
+        textAlign: 'center',
+        textAlignVertical: 'center',
+        borderRadius: 20,
+
     }, 
     imagem: {
-        // height: RFPercentage(16), 
-        // width: RFPercentage(48),  
-        width: '90%', 
+        // height: RFPercentage(10), 
+        // width: RFPercentage(28),  
+        width: '80%', 
         resizeMode: 'contain', 
         // filter: 'grayscale(80%)', 
         // filter: 'sepia(80%)', 
         // filter: 'saturate(10%)', 
-        filter: 'brightness(30%)', 
+        //filter: 'brightness(30%)', 
         // filter: 'contrast(50%)', 
         // filter: 'invert(100%)', 
     }, 

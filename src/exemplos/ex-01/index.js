@@ -2,7 +2,7 @@ import { View, Text } from 'react-native';
 
 import styles from './styles';
 
-function exemplo01() {
+function Exemplo01() {
     return (
 
 
@@ -14,4 +14,4 @@ function exemplo01() {
         </View>
     );
 }
-export default exemplo01;
+export default Exemplo01;

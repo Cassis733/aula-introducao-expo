@@ -1,28 +1,50 @@
-import { View, Text, Image } from 'react-native'; 
+import { View, Text, Image } from 'react-native';
 
 import styles from './styles';
 
-import img from '../../../assets/002-1-react-native.png'; 
+import img1 from '../../../assets/Ferrari.jpg'; 
+import img2 from '../../../assets/Fiat.jpg';
+import img3 from '../../../assets/Mustang.jpg';
+import img4 from '../../../assets/Toyota.jpg';
 
-import Mensagem from './mensagens';
+import Card from './Card';
 
-function atv02 () {
-    return(
+function Atividade2() {
+    return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Exemplo 2</Text>
-            <Image source={img} style={styles.imagem} /> 
 
-            <Mensagem titulo={'Camisa Preta'}>
-                Não está a venda
-            </Mensagem>
-            <Mensagem titulo={'Erro'}>
-                O programa não respondeu como esperado!
-            </Mensagem>
-            <Mensagem titulo={'Alerta'}>
-                Você não pode fazer isso!
-            </Mensagem>
+            <Text style={styles.titulo}>Atividade 2</Text>
+            <Card
+                titulo={'Carro 01'}
+                descricao={'Ferrari'}
+                preco={'R$ 1.500.000,00'}
+                img={img1}
+                
+            />
+
+            <Card
+                titulo={'Carro 02'}
+                descricao={'Fiat'}
+                preco={'R$ 500,00'}
+                img={img2}
+            />
+
+            <Card
+                titulo={'Carro 03'}
+                descricao={'Mustang'}
+                preco={'R$ 500,00'}
+                img={img3}
+            />
+
+            <Card
+                titulo={'Carro 04'}
+                descricao={'Mustang'}
+                preco={'R$ 500,00'}
+                img={img4}
+            />
+
         </View>
     );
 }
 
-export default atv02;
+export default Atividade2;
