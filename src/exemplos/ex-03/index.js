@@ -3,7 +3,7 @@ import { View, Text, Button, Alert, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
-function Atividades03() {
+function Exemplo03() {
 
     const [numero, setNumero] = useState(0);
 
@@ -41,7 +41,7 @@ function Atividades03() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Atividade 3</Text>
+            <Text style={styles.titulo}>Exemplo 3</Text>
             <Text style={styles.texto}>Variáveis e State</Text>
 
             <View style={styles.botaoAlert}>
@@ -52,24 +52,13 @@ function Atividades03() {
                 />
             </View>
 
-            <View style={styles.viewII}>
             <Text style={styles.valor}>{numero}</Text>
             <TouchableOpacity style={styles.botao} onPress={handleIncrementa}>
                 <Text style={styles.txtBotao}>+1</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.botao} onPress={handleIncrementa}>
-                <Text style={styles.txtBotao}>+1</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.botao} onPress={handleIncrementa}>
-                <Text style={styles.txtBotao}>+1</Text>
-            </TouchableOpacity>
-            </View>
-           
-
         </View>
     );
 }
 
-export default Atividades03;
+export default Exemplo03;
