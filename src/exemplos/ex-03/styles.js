@@ -5,8 +5,8 @@ import { RFPercentage } from 'react-native-responsive-fontsize';
 const styles = StyleSheet.create({
     container: {
         flex: 1, // container ocupa 100% da tela
-        backgroundColor: '#fafafa', // cor do container
-        borderRadius: 10, // borda curvada
+        backgroundColor: '#dd8787', // cor do container
+        borderRadius: 20, // borda curvada
         padding: 8, 
         alignItems: 'center', // alinhamento horizontal - flexDirection collumn
     }, 

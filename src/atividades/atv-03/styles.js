@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         fontSize: RFPercentage(2.2),  
     }, 
     botaoAlert: {
-        width: '75%', 
+        width: '35%', 
         margin: RFPercentage(2),         
     }, 
     valor: {
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     }, 
     botao: {
         backgroundColor: 'darkslategrey', 
-        width: '35%', 
+        width: '20%', 
         borderRadius: RFPercentage(2), 
         padding: RFPercentage(1), 
         alignItems: 'center' , 
@@ -47,11 +47,6 @@ const styles = StyleSheet.create({
     
 
     }, 
-
-    viewI: {
-
-        flexDirection: 'row',
-    },
 
     viewII: {
 
