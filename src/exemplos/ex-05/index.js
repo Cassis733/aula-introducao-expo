@@ -101,6 +101,8 @@ export default function Exemplo05() {
             >
                 <Text style={styles.textButton}> + </Text>
             </Pressable>
+            
+
 
         </View>
     );
