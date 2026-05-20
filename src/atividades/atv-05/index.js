@@ -102,7 +102,7 @@ export default function Atividades05() {
                 readOnly={true}
                 value={total ? parseFloat(total).toFixed(2) : '0.00'}
             />
-            <View style={( flexDirection: 'row', justifyContent: 'space-between', width: '100%')}>
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%'}}>
                 <Pressable
                     onPress={() => soma()}
                     style={
